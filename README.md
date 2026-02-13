@@ -52,17 +52,6 @@ ollama pull nomic-embed-text
 
 ```
 
-
-
-## 📊 Evaluation: Hybrid vs. General AI
-
-This project includes a **Dual Comparison Report** module. In testing, Generalist LLMs often hallucinate citations (e.g., inventing a "Li et al. 2019" paper), whereas this Hybrid system successfully identifies deep systemic links—such as the relationship between **Periodontitis and Cerebral Small Vessel Disease**—using verified literature.
-
-## ⚖️ Limitations & Future Work
-
-* **Knowledge Sparsity:** Currently, the Knowledge Graph is built from a subset of the 933 abstracts. Expanding triple extraction to the full corpus is a primary goal.
-* **Semantic Graph Retrieval:** Implementing vector-based triple retrieval to improve "soft matches" in the Knowledge Graph.
-
 ## 📄 License
 
 This project is for research and educational purposes. Data retrieved from PubMed is subject to NCBI's terms of service.
